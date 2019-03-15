@@ -1,0 +1,62 @@
+\section{Sección Uno}
+\subsection{Apartado Uno}
+\begin{large}
+Texto del apartado uno, y referenciando a
+	Knuth\cite{knuth97,knuth:1984,texbook}, y
+	otros\cite{latex:companion,latex2e,lesk:1977} o el kernel de
+	linux\cite{Kernel:GitHub}
+
+\begin{itemize}
+   \item Item 1
+   \item Item 2
+   \item Item 3
+   \item Item 4
+\end{itemize}
+\end{large}
+
+\section{Sección Dos}
+
+\begin{large}
+\begin{itemize}
+   \item Item 1
+   \item Item 2
+   \item Item 3
+\end{itemize}
+\end{large}
+
+\section{Sección Tres}
+
+\begin{large}
+Bla, bla, bla.
+\end{large}
+
+\section{Sección Cuatro}
+
+\begin{large}
+Bla, bla, bla.
+\end{large}
+
+\newpage
+
+\begin{figure}[htb]
+   \centering
+   \includegraphics[width=0.8\linewidth]{images/figura_1}
+   \caption{Ejemplo de figura}
+   \label{chapter:intro}
+\end{figure}
+
+
+\begin{lstlisting}[language=json,firstnumber=1,caption={Un listado}]
+{"menu": {
+  "id": "file",
+  "value": "File",
+  "popup": {
+    "menuitem": [
+      {"value": "New", "onclick": "CreateNewDoc()"},
+      {"value": "Open", "onclick": "OpenDoc()"},
+      {"value": "Close", "onclick": "CloseDoc()"}
+    ]
+  }
+}}
+0123456789
+\end{lstlisting}
