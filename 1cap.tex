@@ -1,6 +1,6 @@
 \section{Sección Uno}
 \subsection{Apartado Uno}
-\begin{large}
+
 Texto del apartado uno, y referenciando a
 	Knuth\cite{knuth97,knuth:1984,texbook}, y
 	otros\cite{latex:companion,latex2e,lesk:1977} o el kernel de
@@ -12,41 +12,41 @@ Texto del apartado uno, y referenciando a
    \item Item 3
    \item Item 4
 \end{itemize}
-\end{large}
+
 
 \section{Sección Dos}
 
-\begin{large}
+
 \begin{itemize}
    \item Item 1
    \item Item 2
    \item Item 3
 \end{itemize}
-\end{large}
+
 
 \section{Sección Tres}
 
-\begin{large}
+
 Bla, bla, bla.
-\end{large}
+
 
 \section{Sección Cuatro}
 
-\begin{large}
+
 Bla, bla, bla.
-\end{large}
+
 
 \newpage
 
 \begin{figure}[htb]
    \centering
-   \includegraphics[width=0.8\linewidth]{images/figura_1}
+   \includegraphics[width=0.7\textwidth]{images/figura_1}
    \caption{Ejemplo de figura}
-   \label{chapter:intro}
+   \label{fig:ejemplo}
 \end{figure}
 
 
-\begin{lstlisting}[language=json,firstnumber=1,caption={Un listado}]
+\begin{lstlisting}[language=json,firstnumber=1,caption={Un listado},label={code:ejemplo}]
 {"menu": {
   "id": "file",
   "value": "File",
